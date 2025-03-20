@@ -1,8 +1,8 @@
 app_name = "linter_test"
-app_title = "Linter Test"
+app_title = "Linter Test App"
 app_publisher = "Tester"
 app_description = "Testing App"
-app_email = "tester@123.com"
+app_email = "test@123.com"
 app_license = "mit"
 
 # Apps
@@ -15,7 +15,7 @@ app_license = "mit"
 # 	{
 # 		"name": "linter_test",
 # 		"logo": "/assets/linter_test/logo.png",
-# 		"title": "Linter Test",
+# 		"title": "Linter Test App",
 # 		"route": "/linter_test",
 # 		"has_permission": "linter_test.api.permission.has_app_permission"
 # 	}

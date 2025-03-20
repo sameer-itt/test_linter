@@ -1,4 +1,4 @@
-## Linter Test
+## Linter Test App
 
 Testing App
 
