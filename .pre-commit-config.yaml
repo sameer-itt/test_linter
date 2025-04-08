@@ -7,7 +7,7 @@ repos:
     rev: v4.3.0
     hooks:
       - id: trailing-whitespace
-        files: "pre_commit_example.*"
+        files: "linter.*"
         exclude: ".*json$|.*txt$|.*csv|.*md|.*svg"
       - id: check-yaml
       - id: check-merge-conflict
@@ -35,11 +35,11 @@ repos:
         # Ignore any files that might contain jinja / bundles
         exclude: |
             (?x)^(
-                pre_commit_example/public/dist/.*|
+                linter/public/dist/.*|
                 .*node_modules.*|
                 .*boilerplate.*|
-                pre_commit_example/templates/includes/.*|
-                pre_commit_example/public/js/lib/.*
+                linter/templates/includes/.*|
+                linter/public/js/lib/.*
             )$
 
   - repo: https://github.com/pre-commit/mirrors-eslint
@@ -51,12 +51,12 @@ repos:
         # Ignore any files that might contain jinja / bundles
         exclude: |
             (?x)^(
-                pre_commit_example/public/dist/.*|
+                linter/public/dist/.*|
                 cypress/.*|
                 .*node_modules.*|
                 .*boilerplate.*|
-                pre_commit_example/templates/includes/.*|
-                pre_commit_example/public/js/lib/.*
+                linter/templates/includes/.*|
+                linter/public/js/lib/.*
             )$
 
 ci:
